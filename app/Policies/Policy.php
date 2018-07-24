@@ -19,7 +19,7 @@ class Policy
 	    // 		return true;
 	    // }
 
-        if ($user->can('manage_contents')) {
+       if ($user->can('manage_contents')) {
             return true;
         }
 	}
